@@ -22,3 +22,13 @@ h1#history-header {
   border-bottom: 2px black;
   font-style: italic;
 }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
