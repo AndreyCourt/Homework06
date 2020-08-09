@@ -5,3 +5,20 @@ div#main {
 div#weather-display {
   margin-top: 20px;
 }
+
+div#main {
+  align-content: center;
+}
+
+div.card {
+  max-width: 20%;
+  border-radius: 10px;
+  border-color: cadetblue;
+  background-color: rgba(238, 224, 95, 0.856);
+}
+
+h1#history-header {
+  font-size: 40px;
+  border-bottom: 2px black;
+  font-style: italic;
+}

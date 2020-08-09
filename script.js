@@ -82,10 +82,12 @@ function onHistoryAdd(location) {
   addToHistoryHTML(location);
 }
 
+// Loop for Extrating Weather Data
+
 function onForecast(data) {
   console.log("Forecast Daily Weather: ", data.daily);
   var htmlContent = "";
-  for (var i = 0; i < data.daily.length; i++) {
+  for (var i = 0; i < 5; i++) {
     var weather = data.daily[i];
     var date = new Date(weather.dt * 1000).toLocaleDateString();
     var weatherIcon = weather.weather[0].icon;
